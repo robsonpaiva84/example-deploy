@@ -2,6 +2,9 @@
   "name": "busca-endereco",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.17.1 <19.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

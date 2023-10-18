@@ -2,9 +2,9 @@
   <div class="cep">
     <h1>Busca Endereco pelo CEP</h1>
     <input v-model="cep" placeholder="Digite o CEP" />
-      <button @click="buscarEndereco">Buscar</button>
-      <pre v-if="resultado">{{ resultado }}</pre>
-      </div>
+    <button @click="buscarEndereco">Buscar</button>
+    <pre v-if="resultado">{{ resultado }}</pre>
+  </div>
 </template>
 
 <style>
@@ -20,7 +20,6 @@
     margin-bottom: 1rem;
   }
 }
-
 </style>
 
 <script setup>
